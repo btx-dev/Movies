@@ -1,0 +1,1 @@
+<?php header('Location: /movies/index.php'); exit(); ?>

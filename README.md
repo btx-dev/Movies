@@ -22,7 +22,7 @@ The project started in early 2019 in order for me to practice scripting while at
   
 ## Important notes  
 In order for the app to work you need to register for a free key at http://www.omdbapi.com/  
-You will find the database file to import in "developer" directory.  
+You will find the database file to import in "[developer](../master/movies/developer)" directory.  
 The project has been developed and tested under localhost using the XAMPP distro found at https://www.apachefriends.org/  
 The app was using an older versioning system, please ignore any version reference in comments or so.  
 You may copy, modify and/or distribute the project without any notice but i (myself and any contributor) will NOT be held responsible for ANY security issues! Remember this app WAS NOT developed with security in mind!  
@@ -30,8 +30,8 @@ You may copy, modify and/or distribute the project without any notice but i (mys
 ## Installation notes  
 1. Register for a key at http://www.omdbapi.com/  
 2. Place the project folder to your server web directory (e.g. "htdocs" for XAMPP) and start your server.  
-3. Import the database file under "developer" directory to create the sample database and tables with a few records.  
-4. Find and replace in "dbconn.php" file your database credentials and your api key in corresponding variables in "do_search.php" and "update.php".  
+3. Import the database file under "[developer](../master/movies/developer)" directory to create the sample database and tables with a few records.  
+4. Find and replace in "[dbconn.php](../master/movies/functions/dbconn.php)" file your database credentials and your api key in corresponding variables in "[do_search.php](../master/movies/functions/do_search.php)" and "[update.php](../master/movies/functions/update.php)".  
 5. Type the url in browser (e.g. http://localhost/movies).  
 6. Login using one of the user accounts provided or create one to test.  
 7. Enjoy!  
@@ -57,7 +57,7 @@ You may copy, modify and/or distribute the project without any notice but i (mys
   
 ## Σημαντικές σημειώσεις  
 Για να λειτουργήσει η εφαρμογή πρέπει να πάρετε κλειδί για το API δωρεάν στη διεύθυνση http://www.omdbapi.com/  
-Θα βρείτε το αρχείο για εισαγωγή της βάσης στον κατάλογο "developer".  
+Θα βρείτε το αρχείο για εισαγωγή της βάσης στον κατάλογο "[developer](../master/movies/developer)".  
 Η εφαρμογή δημιουργήθηκε και ελέγθηκε σε περιβάλλον localhost χρησημοποιώντας το πακέτο XAMPP που βρίσκεται στη διεύθυνση https://www.apachefriends.org/  
 Η εφαρμογή χρησημοποιούσε παλαιότερο σύστημα εκδόσεων, παρακαλώ αγνοείστε αναφορές σε έκδοση μέσα στον κώδικα η αλλού.  
 Μπορείτε να αντιγράψετε, να επεξεργαστείτε και να αναδιανέμετε την εφαρμογή χωρίς ειδοποίηση όμως εγώ (ο εαυτός μου και κάθε συνεισφέρων σε αυτήν) ΔΕΝ θα θεωρούμεθα υπεύθυνοι για οποιοδίποτε θέμα ασφαλείας! Θυμηθείτε οτι αυτή η εφαρμογή ΔΕΝ δημιουργήθηκε με γνώμονα την ασφάλεια!  
@@ -65,8 +65,8 @@ You may copy, modify and/or distribute the project without any notice but i (mys
 ## Οδηγίες εγκατάστασης  
 1. Κάντε εγγραφή για κλειδί στο http://www.omdbapi.com/  
 2. Τοποθέτηστε τον κατάλογο της εφαρμογής στον κατάλογο web του server σας (πχ "htdocs" για το XAMPP) και εκκινήστε το server.  
-3. Κάντε εισαγωγή το αρχείο βάσης από τον κατάλογο "developer" για να δημιουργηθεί η βάση και οι πίνακες με λίγες εγγραφές.  
-4. Βρείτε και αντικαταστείστε στο αρχείο "dbconn.php" τις πληροφορίες σύνδεσής σας με τη βάση και το κλειδί API στις αντίστοιχες μεταβλητές στα αρχεία "do_search.php" και "update.php".  
-5. Πληκτρολογείστε τη διεύθυνση στον φυλλομετριτή (πχ http://localhost/movies).  
+3. Κάντε εισαγωγή το αρχείο βάσης από τον κατάλογο "[developer](../master/movies/developer)" για να δημιουργηθεί η βάση και οι πίνακες με λίγες εγγραφές.  
+4. Βρείτε και αντικαταστείστε στο αρχείο "[dbconn.php](../master/movies/functions/dbconn.php)" τις πληροφορίες σύνδεσής σας με τη βάση και το κλειδί API στις αντίστοιχες μεταβλητές στα αρχεία "[do_search.php](../master/movies/functions/do_search.php)" και "[update.php](../master/movies/functions/update.php)".  
+5. Πληκτρολογείστε τη διεύθυνση στον φυλλομετρητή (πχ http://localhost/movies).  
 6. Εισέλθετε με έναν από τους παρεχόμενους λογαριασμούς χρήστη ή δημιουργείστε δικό σας για να δοκιμάσετε.  
 7. Απολαύστε!  

@@ -8,6 +8,7 @@ session_start();
 <head>
 	<title>Movies List</title>
 	<link href="style/movieStyle.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/png" href="./images/favicon.png"/>
 	<!--Horizontical navigation menu style-->
 	<style>
 		ul 

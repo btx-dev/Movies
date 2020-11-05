@@ -33,7 +33,7 @@ if (isset($_POST['insert-submit'])) {
 	// Check if the query was successful.
 	if ($success) 
 	{
-		header('Location: /movies/search.php?insert=success'); 
+		header('Location: ./search.php?insert=success'); 
 		exit();
 		
 	} 
@@ -46,7 +46,7 @@ if (isset($_POST['insert-submit'])) {
 //Access denied
 else 
 { 
-	header('Location: /movies/index.php'); 
+	header('Location: ./index.php'); 
 	exit();
 }
 ?>

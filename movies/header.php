@@ -64,7 +64,7 @@ session_start();
 		{
 			echo '<li ><a href="search.php" id="search.php" title="Movie Search">Search</a></li>
 				<li ><a href="movies.php" id="movies.php" title="Movies Display">Movies List</a></li>
-				<li ><a href="/movies/functions/logout.php" id="logout.php" title="Logout">Logout</a></li>';
+				<li ><a href="./functions/logout.php" id="logout.php" title="Logout">Logout</a></li>';
 		}
 		
 	  ?>

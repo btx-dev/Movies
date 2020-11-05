@@ -50,7 +50,7 @@ if (isset($_POST['login-submit'])) {
 					$_SESSION['userid'] = $row['ID'];
 					$_SESSION['username'] = $row['Username'];
 
-					header('Location: /movies/index.php?login=success'); 
+					header('Location: ../index.php?login=success'); 
 					exit();
 				}
 			}
@@ -65,13 +65,13 @@ if (isset($_POST['login-submit'])) {
 //Access denied.
 else 
 { 
-	header('Location: /movies/index.php'); 
+	header('Location: ../index.php'); 
 	exit();
 }
 // Redirects back to login.php if there is an error in user input. Sets error arguments.
 function errorRedirect($errorType)
 {
-	header('Location: /movies/login.php?error='.$errorType); 
+	header('Location: ../login.php?error='.$errorType); 
 	exit();
 }
 ?>

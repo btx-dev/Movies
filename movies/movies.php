@@ -25,8 +25,8 @@ if (isset($_SESSION['userid']))
 		<div id="title"> 
 			<h1><?php echo $movie['Title']?></h1>
 			<span class="year"> <?php echo "(".$movie['Year'].")" ?></span>
-			<img id="deleteIcon" class="toolbar" src="/movies/images/delete.png" onclick="deleteMovie('<?php echo $movie['Title'] ?>')">
-			<img id="updateIcon" class="toolbar" src="/movies/images/update.png" onclick="updateMovie('<?php echo $movie['Title'] ?>')">
+			<img id="deleteIcon" class="toolbar" src="./images/delete.png" onclick="deleteMovie('<?php echo $movie['Title'] ?>')">
+			<img id="updateIcon" class="toolbar" src="./images/update.png" onclick="updateMovie('<?php echo $movie['Title'] ?>')">
 		</div>	
 		<!-- Left div: image url, rating, votes -->
 		<div id="left"> 
@@ -63,7 +63,7 @@ function deleteMovie(title)
 	var r = confirm('The movie will be removed from your database! \nAre you sure you want to delete: "' + title + '"?');
 	if (r == true) 
 	{
-		location.replace("/movies/functions/delete.php?title=" + title + "&user=<?php echo $_SESSION['username'] ?>");
+		location.replace("./functions/delete.php?title=" + title + "&user=<?php echo $_SESSION['username'] ?>");
 	}
 }
 function updateMovie(title)
@@ -71,7 +71,7 @@ function updateMovie(title)
 	var r = confirm('The movie will be updated in your database! \nUpdate "' + title + '" now?');
 	if (r == true) 
 	{
-		location.replace("/movies/functions/update.php?title=" + title + "&user=<?php echo $_SESSION['username'] ?>");
+		location.replace("./functions/update.php?title=" + title + "&user=<?php echo $_SESSION['username'] ?>");
 	}
 }
 </script>

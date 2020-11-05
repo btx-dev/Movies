@@ -26,7 +26,7 @@ $success = mysqli_query($dbconn,$sql);
 // Check if the query was successful.
 if ($success) 
 {
-	header('Location: /movies/movies.php'); 
+	header('Location: ./movies.php'); 
 	exit();	
 }
 // Case query was not successful.

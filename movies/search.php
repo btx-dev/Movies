@@ -22,7 +22,7 @@ if (isset($_SESSION['userid'])) {
 	}
 	?>
 	<!-- Search form. -->
-	<form class="userInput" action="functions/do_search.php" method="post">
+	<form class="userInput" action="./functions/do_search.php" method="post">
 		<!-- Check if a search has already occured to fill the search text. -->
 		<input type="text" name="searchQuery" id="searchQuery" onkeyup = "if (event.keyCode == 13) document.getElementByName('search-submit').click()" 
 		<?php if (isset($_GET['title'])) 
@@ -46,7 +46,7 @@ if (isset($_SESSION['userid'])) {
 			echo $title.'</p><br>
 				<img id="img" src="'.$_GET['img'].'"></img><br>
 				<p class="result">IMDB Rating: '.$_GET['rating'].'</p>';
-			echo '<form action="functions/insert.php" method="post">
+			echo '<form action="./functions/insert.php" method="post">
 				<button type="submit" name="insert-submit">Insert</button>
 				</form>';
 		}?>
@@ -56,7 +56,7 @@ if (isset($_SESSION['userid'])) {
 // Access denied.
 else 
 {
-	header('Location: /movies/index.php'); 
+	header('Location: ../index.php'); 
 	exit();
 }
 ?>

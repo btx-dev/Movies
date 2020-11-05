@@ -103,7 +103,7 @@ if (isset($_POST['signup-submit'])) {
 							$hashed_password = password_hash($password, PASSWORD_DEFAULT);
 							mysqli_stmt_bind_param($stmt, "sss", $username, $mail, $hashed_password);
 							mysqli_stmt_execute($stmt);
-							header('Location: /movies/login.php?signup=success&uid='.$username.'&mail='.$mail); 
+							header('Location: ./login.php?signup=success&uid='.$username.'&mail='.$mail); 
 							exit();
 						}
 					}
@@ -121,7 +121,7 @@ else
 // Redirects back to signup.php if there is an error in user input. Sets error arguments.
 function errorRedirect($errorType)
 {
-	header('Location: /movies/signup.php?error='.$errorType); 
+	header('Location: ./signup.php?error='.$errorType); 
 	exit();
 }
 

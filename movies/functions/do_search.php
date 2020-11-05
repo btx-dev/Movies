@@ -32,17 +32,17 @@ if (isset($_POST['search-submit']) && !empty($_POST['searchQuery'])) {
 	$_SESSION['img'] = $poster;
 
 	// Redirect to search.php with attributes.
-	header('Location: /movies/search.php?title='.$title.'&rating='.$rating.'&img='.$poster);
+	header('Location: ../search.php?title='.$title.'&rating='.$rating.'&img='.$poster);
 	exit();
 }
 else {
 	// Access granted but search query is empty. Redirect with error.
 	if (empty($_POST['searchQuery']) && isset($_POST['search-submit'])) {
-		header('Location: /movies/search.php?error=emptyfields'); 
+		header('Location: ../search.php?error=emptyfields'); 
 		exit();
 	}
 	// Access denied.
-	header('Location: /movies/index.php'); 
+	header('Location: ../index.php'); 
 	exit();
 }
 ?>

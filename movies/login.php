@@ -38,7 +38,7 @@ include 'header.php';
 	?>
 	<p>
 		<!-- User input form. -->
-		<form class="userInput" action="/movies/functions/do_login.php" method="post">
+		<form class="userInput" action="./functions/do_login.php" method="post">
 			<!-- Check if an input is already sent to fill in the mailuid text. -->
 			<input type="text" name="mailuid" placeholder="Username/Email"
 			<?php if (isset($_GET['uid'])) 

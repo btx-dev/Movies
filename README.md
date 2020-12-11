@@ -33,7 +33,7 @@ You may copy, modify and/or distribute the project without any notice but i (mys
 3. Import the database file under "[developer](../master/movies/developer)" directory to create the sample database and tables with a few records.  
 4. Find and replace in "[dbconn.php](../master/movies/functions/dbconn.php)" file your database credentials and your api key in corresponding variables in "[do_search.php](../master/movies/functions/do_search.php)" and "[update.php](../master/movies/functions/update.php)".  
 5. Type the url in browser (e.g. http://localhost/movies).  
-6. Login using one of the user accounts provided or create one to test.  
+6. Login using one of the user accounts provided (password: 123) or create one to test.  
 7. Enjoy!  
   
 ## Στα ελληνικά..  
@@ -68,5 +68,5 @@ You may copy, modify and/or distribute the project without any notice but i (mys
 3. Κάντε εισαγωγή το αρχείο βάσης από τον κατάλογο "[developer](../master/movies/developer)" για να δημιουργηθεί η βάση και οι πίνακες με λίγες εγγραφές.  
 4. Βρείτε και αντικαταστείστε στο αρχείο "[dbconn.php](../master/movies/functions/dbconn.php)" τις πληροφορίες σύνδεσής σας με τη βάση και το κλειδί API στις αντίστοιχες μεταβλητές στα αρχεία "[do_search.php](../master/movies/functions/do_search.php)" και "[update.php](../master/movies/functions/update.php)".  
 5. Πληκτρολογείστε τη διεύθυνση στον φυλλομετρητή (πχ http://localhost/movies).  
-6. Εισέλθετε με έναν από τους παρεχόμενους λογαριασμούς χρήστη ή δημιουργείστε δικό σας για να δοκιμάσετε.  
+6. Εισέλθετε με έναν από τους παρεχόμενους λογαριασμούς χρήστη (password: 123) ή δημιουργείστε δικό σας για να δοκιμάσετε.  
 7. Απολαύστε!  
